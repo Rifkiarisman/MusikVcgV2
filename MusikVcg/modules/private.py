@@ -43,12 +43,12 @@ def _start(client, message):
                         "➕ Tambahkan Saya Ke Grup ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Group", url=f"https://t.me/infble"), 
+                        "🎵Asisten Music", url=f"https://t.me/astronoutmusic"), 
                     InlineKeyboardButton(
-                        "👤 Owner", url=f"https://t.me/CollinFowel")
+                        "👤 Owner", url=f"https://t.me/sokapgblg")
                 ],[
                     InlineKeyboardButton(
-                        "💬 Tanya tanya klik disini", url=f"https://t.me/CollinFowel")
+                        "💬 Tanya tanya klik disini", url=f"https://t.me/sokapgblg")
                 ]
             ]
         ),
@@ -104,9 +104,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Tambahkan Saya Ke Grup ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Group', url=f"https://t.me/infble"),
-             InlineKeyboardButton(text = '👤 Owner', url=f"https://t.me/CollinFowel")],
-            [InlineKeyboardButton(text = '💬 Tanya tanya klik disini', url=f"https://t.me/CollinFowel")],
+            [InlineKeyboardButton(text = '🎵 Asisten Music', url=f"https://t.me/astronoutmusic"),
+             InlineKeyboardButton(text = '👤 Owner', url=f"https://t.me/sokapgblg")],
+            [InlineKeyboardButton(text = '💬 Tanya tanya klik disini', url=f"https://t.me/sokapgblg")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
