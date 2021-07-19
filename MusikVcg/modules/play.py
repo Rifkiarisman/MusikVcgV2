@@ -204,6 +204,7 @@ def r_ply(type_):
                 InlineKeyboardButton("Daftar Playlist", "playlist"),
             ],
             [InlineKeyboardButton("❌ Tutup", "cls")],
+             InlineKeyboardButton("👑 Managed By", "https://t.me/sokapgblg")
         ]
     )
     return mar
@@ -418,6 +419,7 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("Daftar Playlist", "playlist"),
                 ],
                 [InlineKeyboardButton("❌ Tutup", "cls")],
+                 InlineKeyboardButton("👑 Managed by", "https://t.me/sokapgblg")
             ]
         )
         await cb.message.edit(stats, reply_markup=marr)
@@ -552,7 +554,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("Daftar Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble"),
+                    InlineKeyboardButton("Support Chanel", url="https://t.me/astronoutupdate"),
                 ],
                 [InlineKeyboardButton(text="❌ Tutup", callback_data="cls")],
             ]
@@ -609,9 +611,9 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("Daftar Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("Owner", url="https://t.me/OWNER_MUSICVCG/3"),
+                    InlineKeyboardButton("Owner", url="https://t.me/sokapgblg"),
                 ],
-                [InlineKeyboardButton(text="ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble"),
+                [InlineKeyboardButton(text="Support Channel", url="https://t.me/astronoutupdate"),
                 ],
                 [InlineKeyboardButton(text="❌ Tutup", callback_data="cls")],
             ]
@@ -700,9 +702,9 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                        InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/OWNER_MUSICVCG/3"),
+                        InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/sokapgblg"),
                     ],
-                    [InlineKeyboardButton(text="ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble"),
+                    [InlineKeyboardButton(text="Support Channel", url="https://t.me/astronoutupdate"),
                     ],
                     [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
                 ]
@@ -856,9 +858,9 @@ async def ytplay(_, message: Message):
         [
             [
                 InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/OWNER_MUSICVCG/3"),
+                InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/sokapgblg"),
             ],
-            [InlineKeyboardButton(text="ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble"),
+            [InlineKeyboardButton(text="Support Channel", url="https://t.me/astronoutupdate"),
             ],
             [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
         ]
