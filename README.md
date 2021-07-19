@@ -85,7 +85,7 @@ License -> https://github.com/Rifkiarisman/Astronout-Music/blob/main/LICENSE
 ### Deploy To Heroku 📡</h4>
 
 <p align="left">
-  <a href="[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CollinFowel/MusikVcgV2/tree/master)>
+  <a href=[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CollinFowel/MusikVcgV2/tree/master)>
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
