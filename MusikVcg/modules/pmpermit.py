@@ -36,7 +36,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hai 👋 \n\n✨ Saya bot musik yang dibuat untuk memutar musik di obrolan suara Grup & Channel Telegram.\n\n⚡ Bot ini memiliki fitur : \n ㅤ• Memutar musik di obrolan suara.\n ㅤ• Mendownload lagu.\n ㅤ• Mendownload video.\n\n ❖ Managed by : [Kyy](https://t.me/sokapgblg) \n ㅤ",
+                "Hai 👋 \n\n✨ Saya bot musik yang dibuat untuk memutar musik di obrolan suara Grup & Channel Telegram.\n\n⚡ Bot ini memiliki fitur : \n ㅤ• Memutar musik di obrolan suara.\n ㅤ• Mendownload lagu.\n ㅤ• Mendownload video.\n\n ❖ Managed by : @sokapgblg \n ㅤ",
             )
             return
 
