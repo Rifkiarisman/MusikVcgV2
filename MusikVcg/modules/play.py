@@ -701,12 +701,12 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                        InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/sokapgblg"),
+                        InlineKeyboardButton("PlayList", callback_data="playlist"),
+                        InlineKeyboardButton("Owner", url="https://t.me/sokapgblg"),
                     ],
                     [InlineKeyboardButton(text="Support Channel", url="https://t.me/astronoutupdate"),
                     ],
-                    [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
+                    [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
             )
             requested_by = message.from_user.first_name
@@ -731,7 +731,7 @@ async def play(_, message: Message):
     else:
         chat_id = get_chat_id(message.chat)
         que[chat_id] = []
-        qeue = que.get(chat_id)
+        qeue = que.get(chat_id
         s_name = title
         r_by = message.from_user
         loc = file_path
@@ -857,12 +857,12 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/sokapgblg"),
+                InlineKeyboardButton("PlayList", callback_data="playlist"),
+                InlineKeyboardButton("Owner", url="https://t.me/sokapgblg"),
             ],
             [InlineKeyboardButton(text="Support Channel", url="https://t.me/astronoutupdate"),
             ],
-            [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
+            [InlineKeyboardButton(text="Close", callback_data="cls")],
         ]
     )
     requested_by = message.from_user.first_name
@@ -998,11 +998,11 @@ async def deezer(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/OWNER_MUSICVCG/3"),
+                InlineKeyboardButton("PlayList", callback_data="playlist"),
+                InlineKeyboardButton("Owner", url="https://t.me/sokapgblg"),
             ],
-            [InlineKeyboardButton(text="ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble")],
-            [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
+            [InlineKeyboardButton(text="Channel", url="https://t.me/astronoutupdate")],
+            [InlineKeyboardButton(text="Close", callback_data="cls")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1134,15 +1134,15 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/OWNER_MUSICVCG/3"),
+                InlineKeyboardButton("PlayList", callback_data="playlist"),
+                InlineKeyboardButton("Owner", url="https://t.me/sokapgblg"),
             ],
             [
                 InlineKeyboardButton(
-                    text="ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble"
+                    text="Channel", url="https://t.me/astronoutupdate"
                 )
             ],
-            [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
+            [InlineKeyboardButton(text="Close", callback_data="cls")],
         ]
     )
     file_path = await convert(wget.download(slink))
@@ -1243,11 +1243,11 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("ᴘ ʟ ᴀ ʏ ʟ ɪ ꜱ ᴛ", callback_data="playlist"),
-                InlineKeyboardButton("ᴏ ᴡ ɴ ᴇ ʀ", url="https://t.me/OWNER_MUSICVCG/3"),
+                InlineKeyboardButton("PlayList", callback_data="playlist"),
+                InlineKeyboardButton("Owner", url="https://t.me/sokapgblg"),
             ],
-            [InlineKeyboardButton(text="ᴊ ᴏ ɪ ɴ  ɢ ᴄ", url="https://t.me/infble")],
-            [InlineKeyboardButton(text="❌ ᴛ ᴜ ᴛ ᴜ ᴘ", callback_data="cls")],
+            [InlineKeyboardButton(text="Channel", url="https://t.me/astronoutupdate")],
+            [InlineKeyboardButton(text="Close", callback_data="cls")],
         ]
     )
     requested_by = useer_name
