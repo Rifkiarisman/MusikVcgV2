@@ -32,6 +32,7 @@ f"""
 ⚡ {PROJECT_NAME} dapat memutar musik di obrolan suara Grup dan obrolan suara Channel Anda
 
 ⚡ Nama Assistant Bot >> @{ASSISTANT_NAME}\n\nKlik tombol dibawah untuk melihat Panduan menggunakan bot**
+👑 Owner:(Kyy)[https://t.me/sokapgblg]
 """,
 
 f"""
@@ -97,5 +98,6 @@ f"""
 - /cend - menghentikan pemutaran musik
 - /userbotjoinchannel - menambahkan Assistant ke Channel Anda
 
+Terima Kasih sudah menggunakan Bot kami🥰
 """
       ]
